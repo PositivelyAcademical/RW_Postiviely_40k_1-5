@@ -163,10 +163,10 @@
         <value>
             <equippedStatOffsets>
                 <MoveSpeed>-0.40</MoveSpeed>
+                <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
                 <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
                 <CarryingCapacity>100</CarryingCapacity>
                 <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
-                <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
             </equippedStatOffsets>
         </value>
     </Operation>
@@ -807,6 +807,92 @@
             </equippedStatOffsets>
         </value>
     </Operation>
+
+
+
+<!--  ==============================================================================================================  -->
+<!--    Primarchs Armour (pimarch)                                                                                    -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Primarch"/statbases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>100000</WorkToMake>
+                <MaxHitPoints>12000</MaxHitPoints>
+                <Mass>18</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>3.30</ArmorRating_Sharp>
+                <ArmorRating_Blunt>2.20</ArmorRating_Blunt>
+                <ArmorRating_Heat>2.20</ArmorRating_Heat>
+                <Insulation_Cold>120</Insulation_Cold>
+                <Insulation_Heat>150</Insulation_Heat>
+                <EquipDelay>6</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Primarch"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <MoveSpeed>-0.20</MoveSpeed>
+                <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
+                <AimingDelayFactor>-0.16</AimingDelayFactor>
+                <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+                <CarryingCapacity>100</CarryingCapacity>
+                <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+<!--  ==============================================================================================================  -->
+<!--    Primarchs Helmet (primarch)                                                                                   -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Primarch"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>10000</WorkToMake>
+                <MaxHitPoints>2000</MaxHitPoints>
+                <Mass>2</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.40</ArmorRating_Heat>
+                <Insulation_Cold>20</Insulation_Cold>
+                <Insulation_Heat>30</Insulation_Heat>
+                <EquipDelay>2</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Primarch"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <AimingDelayFactor>-0.16</AimingDelayFactor>
+                <SocialImpact>0.80</SocialImpact>
+                <ShootingAccuracyPawn>0.60</ShootingAccuracyPawn>
+                <ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
