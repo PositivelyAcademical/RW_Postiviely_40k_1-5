@@ -407,6 +407,75 @@
     </Operation>
 
 
+<!--  ==============================================================================================================  -->
+<!--    Apothecary Armour (veteran)                                                                                   -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Apothecary"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>55000</WorkToMake>
+                <MaxHitPoints>2700</MaxHitPoints>
+                <Mass>12</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>2.55</ArmorRating_Sharp>
+                <ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.80</ArmorRating_Heat>
+                <Insulation_Cold>80</Insulation_Cold>
+                <Insulation_Heat>130</Insulation_Heat>
+                <EquipDelay>4</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Apothecary"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+                <CarryingCapacity>55</CarryingCapacity>
+                <ToxicEnvironmentResistance>0.65</ToxicEnvironmentResistance>
+                <MedicalSurgerySuccessChance>0.35</MedicalSurgerySuccessChance>
+                <MedicalTendQuality>0.15</MedicalTendQuality>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+<!--  ==============================================================================================================  -->
+<!--    Apothecary Helmet (veteran)                                                                                   -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Apothecary"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>5500</WorkToMake>
+                <MaxHitPoints>500</MaxHitPoints>
+                <Mass>2</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.00</ArmorRating_Heat>
+                <Insulation_Cold>10</Insulation_Cold>
+                <Insulation_Heat>20</Insulation_Heat>
+                <EquipDelay>2</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Apothecary"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.30</ShootingAccuracyPawn>
+                <ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+                <MedicalOperationSpeed>0.20</MedicalOperationSpeed>
+                <MedicalTendSpeed>0.25</MedicalTendSpeed>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
 
 
 
