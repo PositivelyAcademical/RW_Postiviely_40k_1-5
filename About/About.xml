@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <packageId>rimworld.positively.40k</packageId>
+    <name>Positively: 40K Compatabiltiy Patch</name>
+    <author>PositivelyAcademical</author>
+    <url>https://github.com/PositivelyAcademical/RW_Postiviely_40k_1-5</url>
+    <description>A u/PositivelyAcademical RimWorld mod.\n\nRebalances various 40k mods.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+    </modDedendencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>brrainz.harmony</li>
+        <li>CarnySenpai.EnableOversizedWeapons</li>
+        <li>erdelf.HumanoidAlienRaces</li>
+        <li>Phonicmas.40kGenes</li>
+        <li>Hawks.W40K.Pack</li>
+    </loadAfter>
+    <loadBefore>
+        <li>rimworld.positively.compatability</li>
+    </loadBefore>
+    <incompatibleWith>
+    </incompatibleWith>
+</ModMetaData>
+
