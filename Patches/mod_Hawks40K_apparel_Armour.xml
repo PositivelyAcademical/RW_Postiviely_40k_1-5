@@ -73,7 +73,7 @@
 
 
 <!--  ==============================================================================================================  -->
-<!--    Chamipions Armour (artificer)                                                                                 -->
+<!--    Champions Armour (artificer)                                                                                  -->
 <!--  ==============================================================================================================  -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Champion"/statbases</xpath>
@@ -135,6 +135,80 @@
             </equippedStatOffsets>
         </value>
     </Operation>
+
+
+<!--  ==============================================================================================================  -->
+<!--    Terminator Armour (terminator)                                                                                -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Terminator"/statbases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>60000</WorkToMake>
+                <MaxHitPoints>4800</MaxHitPoints>
+                <Mass>18</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>3.10</ArmorRating_Sharp>
+                <ArmorRating_Blunt>1.95</ArmorRating_Blunt>
+                <ArmorRating_Heat>2.00</ArmorRating_Heat>
+                <Insulation_Cold>100</Insulation_Cold>
+                <Insulation_Heat>150</Insulation_Heat>
+                <EquipDelay>6</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <MoveSpeed>-0.40</MoveSpeed>
+                <ShootingAccuracyPawn>0.40</ShootingAccuracyPawn>
+                <CarryingCapacity>100</CarryingCapacity>
+                <ToxicEnvironmentResistance>0.80</ToxicEnvironmentResistance>
+                <MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+<!--  ==============================================================================================================  -->
+<!--    Terminator Helmet (terminator)                                                                                -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Champion"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>6000</WorkToMake>
+                <MaxHitPoints>800</MaxHitPoints>
+                <Mass>2</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.30</ArmorRating_Heat>
+                <Insulation_Cold>20</Insulation_Cold>
+                <Insulation_Heat>30</Insulation_Heat>
+                <EquipDelay>2</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.40</ShootingAccuracyPawn>
+                <ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>
+                <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+
+
+
+
 
 
 
