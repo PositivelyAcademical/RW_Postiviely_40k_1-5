@@ -476,6 +476,72 @@
     </Operation>
 
 
+<!--  ==============================================================================================================  -->
+<!--    Assault Armour (standard)                                                                                     -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Assault"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>50000</WorkToMake>
+                <MaxHitPoints>2400</MaxHitPoints>
+                <Mass>12</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>2.55</ArmorRating_Sharp>
+                <ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.80</ArmorRating_Heat>
+                <Insulation_Cold>80</Insulation_Cold>
+                <Insulation_Heat>130</Insulation_Heat>
+                <EquipDelay>4</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Armor_Assault"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+                <CarryingCapacity>50</CarryingCapacity>
+                <ToxicEnvironmentResistance>0.65</ToxicEnvironmentResistance>
+                <MeleeWeapon_CooldownMultiplier>-0.20</MeleeWeapon_CooldownMultiplier>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
+<!--  ==============================================================================================================  -->
+<!--    Assault Helmet (standard)                                                                                     -->
+<!--  ==============================================================================================================  -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Corvus"]/statBases</xpath>
+        <value>
+            <statBases>
+                <WorkToMake>5000</WorkToMake>
+                <MaxHitPoints>400</MaxHitPoints>
+                <Mass>2</Mass>
+                <Flammability>0.0</Flammability>
+                <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+                <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+                <ArmorRating_Heat>1.00</ArmorRating_Heat>
+                <Insulation_Cold>10</Insulation_Cold>
+                <Insulation_Heat>20</Insulation_Heat>
+                <EquipDelay>2</EquipDelay>
+            </statBases>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Hawks_Base_Helm_Corvus"]/equippedStatOffsets</xpath>
+        <value>
+            <equippedStatOffsets>
+                <ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+                <ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+
+
 
 
 
