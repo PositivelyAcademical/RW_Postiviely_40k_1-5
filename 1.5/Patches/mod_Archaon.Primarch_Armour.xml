@@ -53,6 +53,38 @@
                 </value>
             </li>
 
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="LAP_SOH_Praetor_Artificer_Armor"]/apparel</xpath>
+                <value>
+                    <tags>
+                        <li>PrestigeCombatGear</li>
+                    </tags>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="LAP_SOH_Praetor_Artificer_Backpack"]/apparel</xpath>
+                <value>
+                    <tags>
+                        <li>PrestigeCombatGear</li>
+                    </tags>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="LAP_SOH_Praetor_Artificer_Helmet"]/apparel</xpath>
+                <value>
+                    <tags>
+                        <li>PrestigeCombatGear</li>
+                    </tags>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="LAP_SOH_Praetor_JumpPack"]/apparel</xpath>
+                <value>
+                    <tags>
+                        <li>PrestigeCombatGear</li>
+                    </tags>
+                </value>
+            </li>
 
         </operations>
     </Operation>
